@@ -2,9 +2,11 @@
 
 # Deep Learning for Pancreatic Cancer Segmentation & Classification 
 
-A multi-task deep learning pipeline for pancreatic cancer detection using nnUNetv2 and 300+ annotated 3D CT scans. Utilized a implement a dual-head network for image segmentation (background, pancreas, lesion) and lesion classification across 3 pancreas lesion subtypes.
+A multi-task deep learning pipeline for pancreatic cancer detection using nnUNetv2 and 300+ annotated 3D CT scans. Utilized a dual-head network for image segmentation (background, pancreas, lesion) and lesion classification across 3 pancreas lesion subtypes.
 ##
 ![50B1F929-CE74-4650-BD8C-430DE18C32F0_4_5005_c](https://github.com/user-attachments/assets/32c4c467-e4c4-4252-8d61-b451135a278a)
+<img width="155" height="171" alt="image" src="https://github.com/user-attachments/assets/7fe7f21e-9914-4800-b163-9e9a8dde816a" />
+
 
 ##
 # Running the Project 
@@ -41,6 +43,7 @@ nnUNetv2_predict -i "$nnUNet_raw/Dataset801_PancreasROI/imagesTs" \
 python train_subtype_classifier.py
 python predict_test_subtypes.py
 
-13. The CSV will be written to
+7. The CSV will be written to
+
 $nnUNet_results/Dataset801_PancreasROI/subtype_results.csv
 
