@@ -5,7 +5,7 @@
 A multi-task deep learning pipeline for pancreatic cancer detection using nnUNetv2 and 300+ annotated 3D CT scans. Utilized a dual-head network for image segmentation (background, pancreas, lesion) and lesion classification across 3 pancreas lesion subtypes.
 ##
 ![50B1F929-CE74-4650-BD8C-430DE18C32F0_4_5005_c](https://github.com/user-attachments/assets/32c4c467-e4c4-4252-8d61-b451135a278a)
-<img width="155" height="171" alt="image" src="https://github.com/user-attachments/assets/7fe7f21e-9914-4800-b163-9e9a8dde816a" />
+![27BFB4E4-2D42-47A7-BC21-0A564AB637C4_4_5005_c](https://github.com/user-attachments/assets/37ebb116-589b-4f80-88a1-c0056b97c367)
 
 
 ##
